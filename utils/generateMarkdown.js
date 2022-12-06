@@ -23,10 +23,10 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Support](#support)
   - [Contributions](#contributions)
-  - [Contact](#contact)
+  - [Contact](#email)
 
   ## Description
-  ${data.descripton}
+  ${data.description}
 
   ## Installation Instructions
   ${data.installation}

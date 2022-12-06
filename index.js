@@ -15,13 +15,13 @@ const questions = [
         name: "title"
     },
     {
-        type: 'input',
-        message: 'What is your project about?',
-        name: 'description'
+        type: "input",
+        message: "What is your project about?",
+        name: "description"
     },
     {
         type: "list",
-        message: "What kind of license is your project?",
+        message: "What kind of license does your project need?",
         name: "license",
         choices: [
             {name: "MIT", value: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"},
@@ -33,12 +33,12 @@ const questions = [
     {
         type: "input",
         message: "How does one install your project?",
-        name: 'installation'
+        name: "installation"
     },
     {
         type: "input",
-        message: 'How does one use your project in their benefit?',
-        name: 'usage'
+        message: "What is the use-case for this project?",
+        name: "usage"
     },
     {
         type: "input",
